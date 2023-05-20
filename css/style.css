@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/fon.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    margin: 50px 50px;
+}
+
+.main_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    margin: 0 10px;
+    font-family: 'Single Day';
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.square {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rhomb_two {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rhomb_one {
+    width: 350px;
+    height: 350px;
+}
+
+.rhomb_two {
+    width: 400px;
+    height: 400px;
+}
+
+.rhomb_one img {
+    width: 100%;
+    height: 100%;
+}
+
+.rhomb_two img {
+    width: 100%;
+    height: 100%;
+}
+
+.pole_registr {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pole_registr input {
+    margin: 10px auto;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #800080;
+    color: white;
+    line-height: 30px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.footer h3 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #003B59;
+    padding: 10px 0;
+}
+
+.footer p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    color: #003B59;
+    padding: 20px 0;
+}
+
+.vector_icon {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.vector_icon img {
+    width: 30px;
+}
+
+.rhomb_main {
+    margin-top: 10%;
+}
+
+.ellipse_image {
+    width: 250px;
+    height: 250px;
+}
+
+.ellipse_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.block_text_one {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.block_text_two {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: end;
+}
+
+.block_text_one p {
+    color: white;
+}
+
+.btn {
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.line_one {
+    width: 100%;
+    height: 30px;
+    margin: 40px 0;
+    background: rgba(128, 0, 128, 0.8);
+}
